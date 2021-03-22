@@ -98,6 +98,6 @@ class CityListTest {
     void testGetFirst() {
         CityList cityList = mockCityList();
 
-        assertEquals(mockCity().getCityName(), cityList.getFirstCity());
+        assertEquals(mockCity().getCityName(), cityList.getFirstCity().getCityName());
     }
 }
